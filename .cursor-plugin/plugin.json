@@ -1,0 +1,15 @@
+{
+  "name": "evalmee",
+  "displayName": "Evalmee",
+  "version": "1.0.0",
+  "description": "Build and edit online exams in Evalmee from your AI assistant: sections, questions, answer keys and grading criteria. Remote MCP server with OAuth.",
+  "author": {
+    "name": "Evalmee",
+    "email": "contact@evalmee.com"
+  },
+  "homepage": "https://evalmee.com/en/mcp/",
+  "repository": "https://github.com/evalmee/evalmee-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "exams", "assessment", "education", "quiz", "edtech"],
+  "logo": "assets/logo.svg"
+}
