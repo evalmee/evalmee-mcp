@@ -4,7 +4,7 @@
 
 # Evalmee MCP server
 
-Write your exams with your AI assistant. The Evalmee MCP server connects Claude, ChatGPT, Cursor, Copilot or any client that speaks the [Model Context Protocol](https://modelcontextprotocol.io) to the exam editor of [Evalmee](https://evalmee.com), the online exam platform.
+Write your exams with your AI assistant. The Evalmee MCP server connects Claude, ChatGPT, Cursor, Copilot or any client that speaks the [Model Context Protocol](https://modelcontextprotocol.io) to the exam editor of [Evalmee](https://evalmee.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server), the online exam platform.
 
 ```
 https://app.evalmee.com/mcp
@@ -68,7 +68,7 @@ code --add-mcp '{"name":"evalmee","type":"http","url":"https://app.evalmee.com/m
 
 In Copilot Studio, open an agent, then Tools → Add a tool → New tool → **Model Context Protocol**. Server URL: `https://app.evalmee.com/mcp`. Authentication: OAuth 2.0, dynamic discovery.
 
-Step-by-step screens for each client: [evalmee.com/en/mcp](https://evalmee.com/en/mcp/).
+Step-by-step screens for each client: [evalmee.com/en/mcp](https://evalmee.com/en/mcp/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server).
 
 ## What you can do
 
@@ -95,15 +95,15 @@ Not covered yet: distributing an exam, proctoring, grading answers and reading r
 - Access tokens last one hour and are refreshed without signing in again. Revoke a token at `https://app.evalmee.com/oauth/revoke`, or remove the server from your client.
 - OAuth metadata: [protected resource](https://app.evalmee.com/.well-known/oauth-protected-resource), [authorization server](https://app.evalmee.com/.well-known/oauth-authorization-server).
 
-Hosting, encryption and retention: [evalmee.com/en/security](https://evalmee.com/en/security/).
+Hosting, encryption and retention: [evalmee.com/en/security](https://evalmee.com/en/security/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server).
 
 ## Pricing
 
-The MCP server is in beta and included in every Evalmee plan, at no extra cost. See [pricing](https://evalmee.com/en/pricing/).
+The MCP server is in beta and included in every Evalmee plan, at no extra cost. See [pricing](https://evalmee.com/en/pricing/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server).
 
 ## Links
 
-- Setup guide: https://evalmee.com/en/mcp/
+- Setup guide: https://evalmee.com/en/mcp/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server
 - MCP Registry: `com.evalmee/evalmee`
 - REST API: https://developers.evalmee.com/
 - Help center: https://help.evalmee.com/
