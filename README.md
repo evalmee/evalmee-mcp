@@ -4,7 +4,7 @@
 
 # Evalmee MCP server
 
-Write your exams with your AI assistant. The Evalmee MCP server connects Claude, ChatGPT, Cursor, Copilot or any client that speaks the [Model Context Protocol](https://modelcontextprotocol.io) to the exam editor of [Evalmee](https://evalmee.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server), the online exam platform.
+Work in [Evalmee](https://evalmee.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server), the online exam platform, from your AI assistant. The Evalmee MCP server connects Claude, ChatGPT, Cursor, Copilot or any client that speaks the [Model Context Protocol](https://modelcontextprotocol.io) to your Evalmee account, with your own rights.
 
 ```
 https://app.evalmee.com/mcp
@@ -72,7 +72,7 @@ Step-by-step screens for each client: [evalmee.com/en/mcp](https://evalmee.com/e
 
 ## What you can do
 
-Today the server opens the **exam editor**: your assistant reads the structure of an exam you authored and changes it with you. Every change shows up live in the web editor.
+Today the server covers building exams: your assistant creates an exam, sets it up, writes its content and restructures it with you, and reads the integrity report of an attempt. Every change shows up live in Evalmee. Its scope grows with each release, toward everything you can do in the Evalmee app and its public API.
 
 - “Create a 45-minute exam out of 20, with time accommodation.”
 - “Draft ten multiple-choice questions from this chapter, with the correct answers.”
@@ -99,7 +99,7 @@ Hosting, encryption and retention: [evalmee.com/en/security](https://evalmee.com
 
 ## Pricing
 
-The MCP server is in beta and included in every Evalmee plan, at no extra cost. See [pricing](https://evalmee.com/en/pricing/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server).
+The MCP server is included in every Evalmee plan, at no extra cost. See [pricing](https://evalmee.com/en/pricing/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server).
 
 ## Links
 
