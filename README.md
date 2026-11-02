@@ -4,6 +4,8 @@
 
 # Evalmee MCP server
 
+[![Evalmee on AllMCPs](https://allmcps.com/api/badge/evalmee)](https://allmcps.com/mcp/evalmee?verify=1d3b036d-5683-48ef-9ca4-1ff43610518d)
+
 Work in [Evalmee](https://evalmee.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mcp-server), the online exam platform, from your AI assistant. The Evalmee MCP server connects Claude, ChatGPT, Cursor, Copilot or any client that speaks the [Model Context Protocol](https://modelcontextprotocol.io) to your Evalmee account, with your own rights.
 
 ```
