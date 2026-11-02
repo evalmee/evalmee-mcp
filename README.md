@@ -116,6 +116,8 @@ The MCP server is in beta and included in every Evalmee plan, at no extra cost. 
 | Path | Purpose |
 | --- | --- |
 | `.cursor-plugin/plugin.json`, `mcp.json` | Cursor plugin manifest and server configuration |
+| `skills/evalmee-exam-editor/SKILL.md` | Agent skill: how to build an exam through the server |
+| `AGENTS.md` | Guidance for AI agents working with Evalmee |
 | `assets/` | Logos |
 
 ## License
