@@ -84,7 +84,28 @@ Today the server covers building exams: your assistant creates an exam, sets it 
 
 Question types include multiple choice, single choice, true/false, open, short answer, numeric, code, spreadsheet, diagram, matching and file drop.
 
-Not covered yet: distributing an exam, proctoring, grading answers and reading results. Those go through the [public REST API](https://developers.evalmee.com/). Your client shows the exact list of tools when it connects; that list is authoritative.
+Not covered yet: distributing an exam, live proctoring, grading answers and reading grades. Those go through the [public REST API](https://developers.evalmee.com/).
+
+## Tools
+
+Twelve tools, recorded on November 3, 2026, on version 1.0.1 of the server. Read tools only need the `mcp_read` scope; tools that write or delete require `mcp_write`.
+
+| Tool | What it does | Access |
+| --- | --- | --- |
+| `list_organizations` | Lists the organizations where the connected account can create an exam, and says which account is connected. | Read |
+| `create_exam` | Creates an exam in one of your organizations, with its settings, and returns the link to its editor. | Write |
+| `get_exam_snapshot` | Reads the full structure of an exam: sections, exercises, questions, choices, grade scale and criteria. | Read |
+| `delete_exam` | Deletes an exam you own. The deletion cannot be undone through MCP. | Delete |
+| `get_node_catalog` | Lists the element types you can add to an exam and the rules at each level. | Read |
+| `create_node` | Adds a section, an exercise, a pool, a question or a choice. | Write |
+| `update_node` | Edits an element: statement, correct answer, points, grading criteria. | Write |
+| `move_node` | Moves an element to another position or under another parent. | Write |
+| `duplicate_node` | Duplicates an element with everything it contains. | Write |
+| `delete_node` | Deletes an element and everything it contains. | Delete |
+| `upload_inline_image` | Uploads an image and returns the code to place in a statement. | Write |
+| `get_integrity_report` | Reads the integrity report of an attempt: timing, devices, text copies and pastes, suspicious periods. | Read |
+
+Your client shows the live list the moment it connects: if it differs from this table, the client's list is authoritative. New tools ship with each release.
 
 ## Security and permissions
 
